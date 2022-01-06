@@ -1,0 +1,52 @@
+﻿{
+  "Fingers": [
+    {
+      "finger": "L_Hand"
+    },
+    {
+      "finger": "L_Thumb1"
+    },
+    {
+      "finger": "L_Thumb2"
+    },
+    {
+      "finger": "L_Thumb3"
+    },
+    {
+      "finger": "L_Index1"
+    },
+    {
+      "finger": "L_Index2"
+    },
+    {
+      "finger": "L_Index3"
+    },
+    {
+      "finger": "L_Mid1"
+    },
+    {
+      "finger": "L_Mid2"
+    },
+    {
+      "finger": "L_Mid3"
+    },
+    {
+      "finger": "L_Ling1"
+    },
+    {
+      "finger": "L_Ling2"
+    },
+    {
+      "finger": "L_Ling3"
+    },
+    {
+      "finger": "L_Pinky1"
+    },
+    {
+      "finger": "L_Pinky2"
+    },
+    {
+      "finger": "L_Pinky3"
+    }
+  ] 
+}
