@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2019_4_32;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2019_4_32;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -52,6 +52,9 @@
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2019.4.32f1</UnityVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="D:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Asyncoroutine\Examples\Scripts\ExampleAwaitCoroutine.cs" />
     <Compile Include="Assets\Asyncoroutine\Examples\Scripts\ExampleAwaitCoroutineSync.cs" />
@@ -117,6 +120,7 @@
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\CLR\Method\ExceptionHandler.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\CLR\Method\ILMethod.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\CLR\Method\IMethod.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\CLR\Method\IMethodExtensions.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\CLR\TypeSystem\CLRType.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\CLR\TypeSystem\ILGenericParameterType.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\CLR\TypeSystem\ILType.cs" />
@@ -127,7 +131,7 @@
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Other\NeedAdaptorAttribute.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Other\ThreadSafeDictionary.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Other\UncheckedList.cs" />
-    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Other\UncheckedStack.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Reflection\Extensions.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Reflection\ILRuntimeConstructorInfo.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Reflection\ILRuntimeFieldInfo.cs" />
@@ -139,6 +143,7 @@
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Adaptors\CLRCrossBindingAdaptors.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\CLRBinding\BindingCodeGenerator.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\CLRBinding\BindingGeneratorExtensions.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\CLRBinding\CLRBindingUtils.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\CLRBinding\CommonBindingGenerator.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\CLRBinding\ConstructorBindingGenerator.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\CLRBinding\FieldBindingGenerator.cs" />
@@ -171,19 +176,34 @@
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Enviorment\AppDomain.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Enviorment\CLRRedirections.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Enviorment\CrossBindingAdaptor.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Enviorment\CrossBindingCodeGenerator.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Enviorment\CrossBindingMethodInfo.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Enviorment\DelegateManager.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Enviorment\InvocationContext.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Enviorment\ValueTypeBinder.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Extensions.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\ILRuntimeJITAttribute.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\DelegateAdapter.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\ILIntepreter.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\ILRuntimeException.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\ILTypeInstance.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\OpCodes\OpCode.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\OpCodes\OpCodeEnum.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\OpCodes\OpCodeREnum.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\RegisterVM\AsyncJITCompileWorker.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\RegisterVM\CodeBasicBlock.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\RegisterVM\ILIntepreter.Register.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\RegisterVM\JITCompiler.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\RegisterVM\Optimizer.BCP.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\RegisterVM\Optimizer.ELDC.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\RegisterVM\Optimizer.FCP.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\RegisterVM\Optimizer.InlineMethod.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\RegisterVM\Optimizer.RegisterCleanup.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Intepreter\RegisterVM\Optimizer.Utils.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Stack\RuntimeStack.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Stack\StackFrame.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Stack\StackObject.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\Runtime\Stack\StackObjectAllocator.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil.Cil\Code.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil.Cil\CodeReader.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil.Cil\CodeWriter.cs" />
@@ -227,6 +247,7 @@
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\AssemblyDefinition.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\AssemblyFlags.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\AssemblyHashAlgorithm.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\AssemblyInfo.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\AssemblyLinkedResource.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\AssemblyNameDefinition.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\AssemblyNameReference.cs" />
@@ -251,6 +272,7 @@
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\GenericInstanceType.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\GenericParameter.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\GenericParameterAttributes.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\GenericParameterResolver.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\IConstantProvider.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\ICustomAttributeProvider.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\IGenericInstance.cs" />
@@ -273,6 +295,7 @@
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\MethodDefinition.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\MethodImplAttributes.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\MethodReference.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\MethodReferenceComparer.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\MethodReturnType.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\MethodSemanticsAttributes.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\MethodSpecification.cs" />
@@ -299,10 +322,13 @@
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\TargetRuntime.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\Treatments.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\TypeAttributes.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\TypeComparisonMode.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\TypeDefinition.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\TypeDefinitionCollection.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\TypeParser.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\TypeReference.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\TypeReferenceEqualityComparer.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\TypeResolver.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\TypeSpecification.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\TypeSystem.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Cecil\VariantType.cs" />
@@ -313,7 +339,10 @@
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono.Security.Cryptography\CryptoService.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono\Disposable.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono\Empty.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono\MergeSort.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono\StreamExtensions.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\Mono\Type.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\ProjectInfo.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\symbols\mdb\Mono.Cecil.Mdb\MdbReader.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\symbols\mdb\Mono.Cecil.Mdb\MdbWriter.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\symbols\mdb\Mono.CompilerServices.SymbolWriter\MonoSymbolFile.cs" />
@@ -338,6 +367,7 @@
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\symbols\pdb\Microsoft.Cci.Pdb\PdbFile.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\symbols\pdb\Microsoft.Cci.Pdb\PdbFileHeader.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\symbols\pdb\Microsoft.Cci.Pdb\PdbFunction.cs" />
+    <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\symbols\pdb\Microsoft.Cci.Pdb\PdbInfo.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\symbols\pdb\Microsoft.Cci.Pdb\PdbLine.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\symbols\pdb\Microsoft.Cci.Pdb\PdbLines.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\symbols\pdb\Microsoft.Cci.Pdb\PdbReader.cs" />
@@ -359,6 +389,7 @@
     <None Include="Assets\StreamingAssets\hotfix_dll\unity.dll" />
     <None Include="Assets\StreamingAssets\hotfix_dll\hotfix.dll" />
     <None Include="Assets\Resources\version.txt" />
+    <None Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\LICENSE.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -544,350 +575,362 @@
     <Reference Include="UnityEditor">
       <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\Managed\UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="netstandard">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Win32.Primitives">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.AppContext">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.AppContext.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.Concurrent">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.NonGeneric">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.Specialized">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.EventBasedAsync">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.Primitives">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.TypeConverter">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Console">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Console.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data.Common">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Data.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Contracts">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Debug">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.FileVersionInfo">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Process">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.StackTrace">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.TextWriterTraceListener">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Tools">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.TraceSource">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Tracing">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Drawing.Primitives">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Dynamic.Runtime">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization.Calendars">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization.Extensions">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression.ZipFile">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.DriveInfo">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.Primitives">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.Watcher">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.IsolatedStorage">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.MemoryMappedFiles">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Pipes">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.UnmanagedMemoryStream">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Expressions">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Parallel">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Queryable">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Http.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.NameResolution">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.NetworkInformation">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Ping">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Ping.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Primitives">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Requests">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Requests.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Security">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Sockets">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebHeaderCollection">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebSockets.Client">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebSockets">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ObjectModel">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ObjectModel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Extensions">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Primitives">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.Reader">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.ResourceManager">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.Writer">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.VisualC">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Extensions">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Handles">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Numerics">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Formatters">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Json">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Primitives">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Xml">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Claims">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Claims.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Csp">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Encoding">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Primitives">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.X509Certificates">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Principal">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Principal.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.SecureString">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Encoding">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Encoding.Extensions">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.RegularExpressions">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Overlapped">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks.Parallel">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Thread">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.ThreadPool">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Timer">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ValueTuple">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ValueTuple.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.ReaderWriter">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XDocument">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XmlDocument">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XmlSerializer">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XPath">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XPath.XDocument">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics.Vectors">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Numerics.Vectors.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
-    </Reference>
     <Reference Include="mscorlib">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\mscorlib.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.Composition">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Core">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Data.dll</HintPath>
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="System">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.dll</HintPath>
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll</HintPath>
     </Reference>
-    <Reference Include="System.Drawing">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Drawing.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Numerics.dll</HintPath>
+    <Reference Include="System.Core">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ServiceModel.Web">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Transactions">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Transactions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Windows">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Windows.dll</HintPath>
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.dll</HintPath>
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll</HintPath>
     </Reference>
-    <Reference Include="System.Xml.Serialization">
-      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+    <Reference Include="System.Numerics">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>D:\worksoftware\unity\hub\Editor\2019.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>

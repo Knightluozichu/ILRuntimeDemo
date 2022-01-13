@@ -51,7 +51,7 @@ namespace ILRuntime.Mono.CompilerServices.SymbolWriter
 
 		Hashtable documents = new Hashtable ();
 
-#if CECIL
+#if !CECIL
 		ModuleBuilder mb;
 		delegate Guid GetGuidFunc (ModuleBuilder mb);
 		GetGuidFunc get_guid_func;
