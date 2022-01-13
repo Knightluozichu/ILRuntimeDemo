@@ -53,20 +53,6 @@
     <UnityVersion>2019.4.32f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Asyncoroutine\Examples\Scripts\ExampleAwaitCoroutine.cs" />
-    <Compile Include="Assets\Asyncoroutine\Examples\Scripts\ExampleAwaitCoroutineSync.cs" />
-    <Compile Include="Assets\Asyncoroutine\Examples\Scripts\ExampleUnityCoroutine.cs" />
-    <Compile Include="Assets\Asyncoroutine\Scripts\AwaiterCoroutine.Enumerator.cs" />
-    <Compile Include="Assets\Asyncoroutine\Scripts\AwaiterCoroutine.cs" />
-    <Compile Include="Assets\Asyncoroutine\Scripts\AwaiterCoroutineExtension.cs" />
-    <Compile Include="Assets\Asyncoroutine\Scripts\AwaiterCoroutineer.cs" />
-    <Compile Include="Assets\Asyncoroutine\Scripts\TaskYieldInstruction.cs" />
-    <Compile Include="Assets\Asyncoroutine\Scripts\TaskYieldInstructionExtension.cs" />
-    <Compile Include="Assets\Graphy - Ultimate Stats Monitor\Scene - Customization\Color Picker\G_CUIColorPicker.cs" />
-    <Compile Include="Assets\Graphy - Ultimate Stats Monitor\Scene - Customization\Customization Scripts\CustomizeGraphy.cs" />
-    <Compile Include="Assets\Graphy - Ultimate Stats Monitor\Scene - Customization\Customization Scripts\ForceSliderToMultipleOf3.cs" />
-    <Compile Include="Assets\Graphy - Ultimate Stats Monitor\Scene - Customization\Customization Scripts\ForceSliderToPowerOf2.cs" />
-    <Compile Include="Assets\Graphy - Ultimate Stats Monitor\Scene - Customization\Customization Scripts\UpdateTextWithSliderValue.cs" />
     <Compile Include="Assets\Scripts\Code\CheckDll.cs" />
     <Compile Include="Assets\Scripts\Code\DownLoadBytes\Callback.cs" />
     <Compile Include="Assets\Scripts\Code\DownLoadBytes\DownLoadFile.cs" />
@@ -119,6 +105,20 @@
     <Compile Include="Assets\Scripts\Code@Hotfix\UI\UIPanel.cs" />
     <Compile Include="Assets\Scripts\Code@Hotfix\UI\UIView.cs" />
     <Compile Include="Assets\Test\Test.cs" />
+    <Compile Include="Assets\ThridPartys\Asyncoroutine\Examples\Scripts\ExampleAwaitCoroutine.cs" />
+    <Compile Include="Assets\ThridPartys\Asyncoroutine\Examples\Scripts\ExampleAwaitCoroutineSync.cs" />
+    <Compile Include="Assets\ThridPartys\Asyncoroutine\Examples\Scripts\ExampleUnityCoroutine.cs" />
+    <Compile Include="Assets\ThridPartys\Asyncoroutine\Scripts\AwaiterCoroutine.Enumerator.cs" />
+    <Compile Include="Assets\ThridPartys\Asyncoroutine\Scripts\AwaiterCoroutine.cs" />
+    <Compile Include="Assets\ThridPartys\Asyncoroutine\Scripts\AwaiterCoroutineExtension.cs" />
+    <Compile Include="Assets\ThridPartys\Asyncoroutine\Scripts\AwaiterCoroutineer.cs" />
+    <Compile Include="Assets\ThridPartys\Asyncoroutine\Scripts\TaskYieldInstruction.cs" />
+    <Compile Include="Assets\ThridPartys\Asyncoroutine\Scripts\TaskYieldInstructionExtension.cs" />
+    <Compile Include="Assets\ThridPartys\Graphy - Ultimate Stats Monitor\Scene - Customization\Color Picker\G_CUIColorPicker.cs" />
+    <Compile Include="Assets\ThridPartys\Graphy - Ultimate Stats Monitor\Scene - Customization\Customization Scripts\CustomizeGraphy.cs" />
+    <Compile Include="Assets\ThridPartys\Graphy - Ultimate Stats Monitor\Scene - Customization\Customization Scripts\ForceSliderToMultipleOf3.cs" />
+    <Compile Include="Assets\ThridPartys\Graphy - Ultimate Stats Monitor\Scene - Customization\Customization Scripts\ForceSliderToPowerOf2.cs" />
+    <Compile Include="Assets\ThridPartys\Graphy - Ultimate Stats Monitor\Scene - Customization\Customization Scripts\UpdateTextWithSliderValue.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\CLR\Method\CLRMethod.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\CLR\Method\ExceptionHandler.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\CLR\Method\ILMethod.cs" />
@@ -389,15 +389,15 @@
     <Compile Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\symbols\pdb\Mono.Cecil.Pdb\SymWriter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Graphy - Ultimate Stats Monitor\Changelog.txt" />
+    <None Include="Assets\ThridPartys\Graphy - Ultimate Stats Monitor\Changelog.txt" />
     <None Include="Assets\StreamingAssets\hotfix_dll\unity.dll" />
-    <None Include="Assets\Graphy - Ultimate Stats Monitor\Font\Roboto\LICENSE.txt" />
+    <None Include="Assets\ThridPartys\Graphy - Ultimate Stats Monitor\Font\Roboto\LICENSE.txt" />
     <None Include="Assets\StreamingAssets\hotfix_dll\hotfix.dll" />
-    <None Include="Assets\Graphy - Ultimate Stats Monitor\Font\Northwest-Bold\ERIC-TIRADO-NORTHWEST-LICENSE.txt" />
+    <None Include="Assets\ThridPartys\Graphy - Ultimate Stats Monitor\Font\Northwest-Bold\ERIC-TIRADO-NORTHWEST-LICENSE.txt" />
     <None Include="Assets\Resources\version.txt" />
     <None Include="Assets\ThridPartys\ILRuntime\Mono.Cecil\LICENSE.txt" />
-    <None Include="Assets\Graphy - Ultimate Stats Monitor\Shaders\GraphStandard.shader" />
-    <None Include="Assets\Graphy - Ultimate Stats Monitor\Shaders\GraphMobile.shader" />
+    <None Include="Assets\ThridPartys\Graphy - Ultimate Stats Monitor\Shaders\GraphStandard.shader" />
+    <None Include="Assets\ThridPartys\Graphy - Ultimate Stats Monitor\Shaders\GraphMobile.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1005,13 +1005,89 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="UnityAtoms.UnityAtomsBaseAtoms.Runtime.csproj">
+      <Project>{446E44B7-B0B6-7E2A-FA82-1135C748389B}</Project>
+      <Name>UnityAtoms.UnityAtomsBaseAtoms.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsCore.Runtime.csproj">
+      <Project>{921B17C8-A5B6-6395-96CF-A1A266FDE99F}</Project>
+      <Name>UnityAtoms.UnityAtomsCore.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsMonoHooks.Runtime.csproj">
+      <Project>{A2F62842-1E2E-6B74-F179-492A90BF1322}</Project>
+      <Name>UnityAtoms.UnityAtomsMonoHooks.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsUI.Runtime.csproj">
+      <Project>{D34E0E5A-44E5-8EB2-A9BC-D23517284DCE}</Project>
+      <Name>UnityAtoms.UnityAtomsUI.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsFSM.Runtime.csproj">
+      <Project>{969161BB-F9A4-01D0-ACCB-BFD7CAEDCD4D}</Project>
+      <Name>UnityAtoms.UnityAtomsFSM.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsCore.Editor.csproj">
+      <Project>{CBE4AF7D-B69E-4602-DFC8-B11EB2379C2C}</Project>
+      <Name>UnityAtoms.UnityAtomsCore.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Tayx.Graphy.Editor.csproj">
       <Project>{7E71F26F-3537-BE75-3A95-30EA2502F769}</Project>
       <Name>Tayx.Graphy.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsSceneMgmt.Editor.csproj">
+      <Project>{1C35EA8C-96D1-8157-959B-7985BDE6C0DB}</Project>
+      <Name>UnityAtoms.UnityAtomsSceneMgmt.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsFSM.Editor.csproj">
+      <Project>{9FE59D69-8AA9-A230-89A5-4B1844800234}</Project>
+      <Name>UnityAtoms.UnityAtomsFSM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsMonoHooks.Editor.csproj">
+      <Project>{F2561CE0-325C-8317-23F5-BAC1C034D8EC}</Project>
+      <Name>UnityAtoms.UnityAtomsMonoHooks.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsMobile.Editor.csproj">
+      <Project>{E39C2019-FB30-C289-F7CF-65E669DF83FC}</Project>
+      <Name>UnityAtoms.UnityAtomsMobile.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsInputSystem.Editor.csproj">
+      <Project>{719F6122-CFE7-9016-1349-B4CBE7FA19B2}</Project>
+      <Name>UnityAtoms.UnityAtomsInputSystem.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsBaseAtoms.Editor.csproj">
+      <Project>{136450D3-0CF1-51AC-34CB-41BD7929EABD}</Project>
+      <Name>UnityAtoms.UnityAtomsBaseAtoms.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsInputSystem.Runtime.csproj">
+      <Project>{8C48D67B-F257-4638-2E18-5CDDBABA3719}</Project>
+      <Name>UnityAtoms.UnityAtomsInputSystem.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Tayx.Graphy.csproj">
       <Project>{DDA2D40E-4974-1B93-B2B3-686CDCF280EF}</Project>
       <Name>Tayx.Graphy</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsMobile.Runtime.csproj">
+      <Project>{A9EFCBE7-5C7C-1783-8EF3-3C417F7EB24D}</Project>
+      <Name>UnityAtoms.UnityAtomsMobile.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsSceneMgmt.Runtime.csproj">
+      <Project>{BEE7B1ED-182F-8C16-A37D-243BBAEEC73C}</Project>
+      <Name>UnityAtoms.UnityAtomsSceneMgmt.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsTags.Runtime.csproj">
+      <Project>{C20F1096-D98A-098A-A312-9B70A0696AFE}</Project>
+      <Name>UnityAtoms.UnityAtomsTags.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFSW.MOP2.csproj">
+      <Project>{76AD323E-2499-DF3C-40A2-EC54AEF46D55}</Project>
+      <Name>QFSW.MOP2</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFSW.MOP2.Demo.csproj">
+      <Project>{44BFC8CA-CE5C-7B20-CA05-7A3B37B3586C}</Project>
+      <Name>QFSW.MOP2.Demo</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFSW.MOP2.Editor.csproj">
+      <Project>{4D18DA91-E601-30EC-1F87-6D6A4DCA944F}</Project>
+      <Name>QFSW.MOP2.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

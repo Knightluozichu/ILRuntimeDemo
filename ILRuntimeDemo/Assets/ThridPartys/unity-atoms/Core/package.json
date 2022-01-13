@@ -1,0 +1,26 @@
+{
+  "name": "com.unity-atoms.unity-atoms-core",
+  "displayName": "Unity Atoms Core",
+  "version": "4.4.3",
+  "unity": "2018.3",
+  "description": "Tiny modular pieces utilizing the power of Scriptable Objects",
+  "keywords": [
+    "scriptable objects",
+    "unity"
+  ],
+  "category": "Unity",
+  "files": [
+    "/package.json",
+    "/package.json.meta",
+    "/Runtime",
+    "/Runtime.meta",
+    "/Runtime/UnityAtoms.UnityAtomsCore.Runtime.asmdef",
+    "/Runtime/UnityAtoms.UnityAtomsCore.Runtime.asmdef.meta",
+    "/Editor",
+    "/Editor.meta",
+    "/Editor/UnityAtoms.UnityAtomsCore.Editor.asmdef",
+    "/Editor/UnityAtoms.UnityAtomsCore.Editor.asmdef.meta",
+    "/Documentation",
+    "/Documentation.meta"
+  ]
+}

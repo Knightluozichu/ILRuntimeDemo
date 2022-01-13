@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2019_4_32;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2019_4_32;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -52,9 +52,6 @@
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2019.4.32f1</UnityVersion>
   </PropertyGroup>
-  <ItemGroup>
-    <Analyzer Include="D:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\EditorToolMenu.cs" />
     <Compile Include="Assets\Editor\ILRuntime\ILRuntimeWindow.cs" />
@@ -698,6 +695,90 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{B3981B18-0DCC-FDFD-1912-B65963EE00D0}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsBaseAtoms.Runtime.csproj">
+      <Project>{446E44B7-B0B6-7E2A-FA82-1135C748389B}</Project>
+      <Name>UnityAtoms.UnityAtomsBaseAtoms.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsCore.Runtime.csproj">
+      <Project>{921B17C8-A5B6-6395-96CF-A1A266FDE99F}</Project>
+      <Name>UnityAtoms.UnityAtomsCore.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsMonoHooks.Runtime.csproj">
+      <Project>{A2F62842-1E2E-6B74-F179-492A90BF1322}</Project>
+      <Name>UnityAtoms.UnityAtomsMonoHooks.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsUI.Runtime.csproj">
+      <Project>{D34E0E5A-44E5-8EB2-A9BC-D23517284DCE}</Project>
+      <Name>UnityAtoms.UnityAtomsUI.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsFSM.Runtime.csproj">
+      <Project>{969161BB-F9A4-01D0-ACCB-BFD7CAEDCD4D}</Project>
+      <Name>UnityAtoms.UnityAtomsFSM.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsCore.Editor.csproj">
+      <Project>{CBE4AF7D-B69E-4602-DFC8-B11EB2379C2C}</Project>
+      <Name>UnityAtoms.UnityAtomsCore.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Tayx.Graphy.Editor.csproj">
+      <Project>{7E71F26F-3537-BE75-3A95-30EA2502F769}</Project>
+      <Name>Tayx.Graphy.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsSceneMgmt.Editor.csproj">
+      <Project>{1C35EA8C-96D1-8157-959B-7985BDE6C0DB}</Project>
+      <Name>UnityAtoms.UnityAtomsSceneMgmt.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsFSM.Editor.csproj">
+      <Project>{9FE59D69-8AA9-A230-89A5-4B1844800234}</Project>
+      <Name>UnityAtoms.UnityAtomsFSM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsMonoHooks.Editor.csproj">
+      <Project>{F2561CE0-325C-8317-23F5-BAC1C034D8EC}</Project>
+      <Name>UnityAtoms.UnityAtomsMonoHooks.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsMobile.Editor.csproj">
+      <Project>{E39C2019-FB30-C289-F7CF-65E669DF83FC}</Project>
+      <Name>UnityAtoms.UnityAtomsMobile.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsInputSystem.Editor.csproj">
+      <Project>{719F6122-CFE7-9016-1349-B4CBE7FA19B2}</Project>
+      <Name>UnityAtoms.UnityAtomsInputSystem.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsBaseAtoms.Editor.csproj">
+      <Project>{136450D3-0CF1-51AC-34CB-41BD7929EABD}</Project>
+      <Name>UnityAtoms.UnityAtomsBaseAtoms.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsInputSystem.Runtime.csproj">
+      <Project>{8C48D67B-F257-4638-2E18-5CDDBABA3719}</Project>
+      <Name>UnityAtoms.UnityAtomsInputSystem.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Tayx.Graphy.csproj">
+      <Project>{DDA2D40E-4974-1B93-B2B3-686CDCF280EF}</Project>
+      <Name>Tayx.Graphy</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsMobile.Runtime.csproj">
+      <Project>{A9EFCBE7-5C7C-1783-8EF3-3C417F7EB24D}</Project>
+      <Name>UnityAtoms.UnityAtomsMobile.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsSceneMgmt.Runtime.csproj">
+      <Project>{BEE7B1ED-182F-8C16-A37D-243BBAEEC73C}</Project>
+      <Name>UnityAtoms.UnityAtomsSceneMgmt.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityAtoms.UnityAtomsTags.Runtime.csproj">
+      <Project>{C20F1096-D98A-098A-A312-9B70A0696AFE}</Project>
+      <Name>UnityAtoms.UnityAtomsTags.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFSW.MOP2.csproj">
+      <Project>{76AD323E-2499-DF3C-40A2-EC54AEF46D55}</Project>
+      <Name>QFSW.MOP2</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFSW.MOP2.Demo.csproj">
+      <Project>{44BFC8CA-CE5C-7B20-CA05-7A3B37B3586C}</Project>
+      <Name>QFSW.MOP2.Demo</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFSW.MOP2.Editor.csproj">
+      <Project>{4D18DA91-E601-30EC-1F87-6D6A4DCA944F}</Project>
+      <Name>QFSW.MOP2.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
