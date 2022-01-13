@@ -26,6 +26,7 @@ namespace Hotfix.UI
             m_informationToggle.onValueChanged.AddListener(OnInformationToggleClicked);
             m_albumToggle.onValueChanged.AddListener(OnAlbumToggleClicked);
             m_journalToggle.onValueChanged.AddListener(OnJournalToggleClicked);
+            m_albumToggle.gameObject.SetActive(false);    
         }
 
         protected override void GetChild()

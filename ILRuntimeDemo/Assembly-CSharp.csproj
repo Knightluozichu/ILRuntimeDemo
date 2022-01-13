@@ -62,7 +62,6 @@
     <Compile Include="Assets\Asyncoroutine\Scripts\AwaiterCoroutineer.cs" />
     <Compile Include="Assets\Asyncoroutine\Scripts\TaskYieldInstruction.cs" />
     <Compile Include="Assets\Asyncoroutine\Scripts\TaskYieldInstructionExtension.cs" />
-    <Compile Include="Assets\Data\MyInputSetting.cs" />
     <Compile Include="Assets\Scripts\Code\CheckDll.cs" />
     <Compile Include="Assets\Scripts\Code\DownLoadBytes\Callback.cs" />
     <Compile Include="Assets\Scripts\Code\DownLoadBytes\DownLoadFile.cs" />
@@ -96,7 +95,6 @@
     <Compile Include="Assets\Scripts\Code@Hotfix\Manager\UIPanelManager.cs" />
     <Compile Include="Assets\Scripts\Code@Hotfix\Manager\UIViewManager.cs" />
     <Compile Include="Assets\Scripts\Code@Hotfix\Scene\GameSceneLoad.cs" />
-    <Compile Include="Assets\Scripts\Code@Hotfix\Scene\HotfixSceneLoad.cs" />
     <Compile Include="Assets\Scripts\Code@Hotfix\Scene\SampleSceneLoad.cs" />
     <Compile Include="Assets\Scripts\Code@Hotfix\Scene\SceneLoad.cs" />
     <Compile Include="Assets\Scripts\Code@Hotfix\UI\Common\BannerPanel.cs" />
@@ -115,8 +113,6 @@
     <Compile Include="Assets\Scripts\Code@Hotfix\UI\UIHelper.cs" />
     <Compile Include="Assets\Scripts\Code@Hotfix\UI\UIPanel.cs" />
     <Compile Include="Assets\Scripts\Code@Hotfix\UI\UIView.cs" />
-    <Compile Include="Assets\Test\test.cs" />
-    <Compile Include="Assets\Test\test1.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\CLR\Method\CLRMethod.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\CLR\Method\ExceptionHandler.cs" />
     <Compile Include="Assets\ThridPartys\ILRuntime\ILRuntime\CLR\Method\ILMethod.cs" />
@@ -896,6 +892,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -911,26 +910,11 @@
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
@@ -947,14 +931,26 @@
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
