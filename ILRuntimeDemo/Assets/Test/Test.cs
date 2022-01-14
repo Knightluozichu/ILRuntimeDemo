@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 public class Test : MonoBehaviour
 {
@@ -14,15 +15,21 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _triggerPool = GetComponent<MasterObjectPooler>().GetPool("test");
+        MasterObjectPooler masterObjectPooler = GetComponent<MasterObjectPooler>();
+
+        Debug.Log(masterObjectPooler);
+
+        _triggerPool = masterObjectPooler.GetPool("test");
+
         _triggerPool.Initialize();
+
         _triggerPool.ObjectParent.parent = transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetKeyDown(KeyCode.Q))
         {
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
@@ -36,6 +43,19 @@ public class Test : MonoBehaviour
 
             stopwatch.Stop();
             print($"Milliseconds: {stopwatch.ElapsedMilliseconds}");
+        }
+
+        if(Input.GetKeyUp(KeyCode.C))
+        {
+            MasterObjectPooler masterObjectPooler = GetComponent<MasterObjectPooler>();
+
+            Debug.Log(masterObjectPooler);
+
+            _triggerPool = masterObjectPooler.GetPool("test");
+
+            _triggerPool.Initialize();
+
+            _triggerPool.ObjectParent.parent = transform;
         }
     }
 }

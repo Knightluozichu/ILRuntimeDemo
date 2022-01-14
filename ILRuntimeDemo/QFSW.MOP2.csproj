@@ -53,15 +53,15 @@
     <UnityVersion>2019.4.32f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\ThridPartys\unity-atoms\AutoPool.cs" />
-    <Compile Include="Assets\ThridPartys\unity-atoms\IPoolable.cs" />
-    <Compile Include="Assets\ThridPartys\unity-atoms\MasterObjectPooler.cs" />
-    <Compile Include="Assets\ThridPartys\unity-atoms\ObjectPool.cs" />
-    <Compile Include="Assets\ThridPartys\unity-atoms\PoolableMonoBehaviour.cs" />
-    <Compile Include="Assets\ThridPartys\unity-atoms\PopulateMethod.cs" />
+    <Compile Include="Assets\ThridPartys\MasterObjectPooler2-1.0.3\AutoPool.cs" />
+    <Compile Include="Assets\ThridPartys\MasterObjectPooler2-1.0.3\IPoolable.cs" />
+    <Compile Include="Assets\ThridPartys\MasterObjectPooler2-1.0.3\MasterObjectPooler.cs" />
+    <Compile Include="Assets\ThridPartys\MasterObjectPooler2-1.0.3\ObjectPool.cs" />
+    <Compile Include="Assets\ThridPartys\MasterObjectPooler2-1.0.3\PoolableMonoBehaviour.cs" />
+    <Compile Include="Assets\ThridPartys\MasterObjectPooler2-1.0.3\PopulateMethod.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\ThridPartys\unity-atoms\QFSW.MOP2.asmdef" />
+    <None Include="Assets\ThridPartys\MasterObjectPooler2-1.0.3\QFSW.MOP2.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

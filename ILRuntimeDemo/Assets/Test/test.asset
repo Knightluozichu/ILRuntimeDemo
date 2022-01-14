@@ -15,8 +15,8 @@ MonoBehaviour:
   _name: test
   _template: {fileID: 1225526484029488383, guid: 63910b71ea62dd94f9ebbe236b1db078,
     type: 3}
-  _defaultSize: 1000
+  _defaultSize: 10000
   _maxSize: -1
   _incrementalInstanceNames: 1
-  _autoInitialize: 0
+  _autoInitialize: 1
   _repopulateOnSceneChange: 0
